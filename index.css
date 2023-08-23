@@ -1,0 +1,103 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.conteiner {
+    max-width: 1140px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+    width: 100%;
+    color: rgb(218, 163, 45);
+    padding: 20px;
+    background: rgb(102, 51, 102);
+    box-sizing: border-box;
+}
+
+.menu-item {
+    list-style: none;
+}
+
+.menu-link {
+    color: rgb(253, 175, 218);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.banner-title, .banner-description {
+    text-align: center;
+    color: blue;   
+}
+.banner-section {
+    padding: 100px 0;
+    background: url(img/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title {
+    font-size: 28px;
+    padding: 20px;
+}
+
+.cards-section {
+    background: coral;
+}
+
+.cards-title {
+    color: rgb(116, 31, 31);
+    text-align: center;
+}
+
+.card {
+    padding: 25px;
+    margin-top: 25px;
+    background: chocolate;
+    box-shadow: 0px 2px 7px 0px #000;
+    text-align: center;
+}
+
+.card:hover {
+    box-shadow: 0 10px 30px #000;
+}
+
+.card-link {
+    text-decoration: none;
+    color: rgb(214, 255, 241);
+}
+
+.card-button {
+    text-align: center;
+    background: #6d0000;
+    padding: 10px 50px;
+    border-radius: 10px;
+}
+
+.cards-title, .card-text {
+    margin-bottom: 10px;
+}
+
+.card-button {
+    cursor: pointer;
+}
+/* настраивает карточки. 1й параметр располагает объекты горизонтально в строку */
+.cards {
+    display: inline-block;
+    width: 25%;
+    margin: 0px 40px;
+}
+
+.footer {
+    background: #6e2828;
+    padding: 25px;
+    text-align: center;
+}
+
+.copyright {
+    color: rgb(214, 255, 241);
+}
